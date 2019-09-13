@@ -1,0 +1,6 @@
+framework module Pods_BurritoRadarUITests {
+  umbrella header "Pods-BurritoRadarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

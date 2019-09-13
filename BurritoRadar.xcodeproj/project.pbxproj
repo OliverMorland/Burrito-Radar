@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1277AA2423247DAA009031B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277AA2323247DAA009031B9 /* AppDelegate.swift */; };
+		1277AA2623247DAA009031B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277AA2523247DAA009031B9 /* ViewController.swift */; };
+		1277AA2923247DAA009031B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1277AA2723247DAA009031B9 /* Main.storyboard */; };
+		1277AA2B23247DAC009031B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1277AA2A23247DAC009031B9 /* Assets.xcassets */; };
+		1277AA2E23247DAC009031B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1277AA2C23247DAC009031B9 /* LaunchScreen.storyboard */; };
+		1277AA3923247DAC009031B9 /* BurritoRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277AA3823247DAC009031B9 /* BurritoRadarTests.swift */; };
+		1277AA4423247DAC009031B9 /* BurritoRadarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277AA4323247DAC009031B9 /* BurritoRadarUITests.swift */; };
+		1277AA5223247F08009031B9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277AA5123247F08009031B9 /* TableViewController.swift */; };
+		1277AA54232480A1009031B9 /* Burrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277AA53232480A1009031B9 /* Burrito.swift */; };
+		1277AA5823248414009031B9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1277AA5723248414009031B9 /* TableViewCell.swift */; };
+		1278C72A232AF35C00CA8236 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1278C729232AF35C00CA8236 /* Artwork.swift */; };
+		319733F9AC4665B4D6F8240F /* Pods_BurritoRadar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C51BE6782BB4E12D1FCFD1 /* Pods_BurritoRadar.framework */; };
+		37D283EB2E4F0989392D4F77 /* Pods_BurritoRadarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BD309B8D760250D3DE0AE2 /* Pods_BurritoRadarUITests.framework */; };
+		C3F2A7CE256CBE8C54D79085 /* Pods_BurritoRadarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE41681EA63142D3C8C44BBD /* Pods_BurritoRadarTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1277AA3523247DAC009031B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1277AA1823247DAA009031B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1277AA1F23247DAA009031B9;
+			remoteInfo = BurritoRadar;
+		};
+		1277AA4023247DAC009031B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1277AA1823247DAA009031B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1277AA1F23247DAA009031B9;
+			remoteInfo = BurritoRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BD309B8D760250D3DE0AE2 /* Pods_BurritoRadarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BurritoRadarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09348CDA79D85156025C1A77 /* Pods-BurritoRadar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurritoRadar.release.xcconfig"; path = "Target Support Files/Pods-BurritoRadar/Pods-BurritoRadar.release.xcconfig"; sourceTree = "<group>"; };
+		1277AA2023247DAA009031B9 /* BurritoRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurritoRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1277AA2323247DAA009031B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1277AA2523247DAA009031B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1277AA2823247DAA009031B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1277AA2A23247DAC009031B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1277AA2D23247DAC009031B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1277AA2F23247DAC009031B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1277AA3423247DAC009031B9 /* BurritoRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurritoRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1277AA3823247DAC009031B9 /* BurritoRadarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurritoRadarTests.swift; sourceTree = "<group>"; };
+		1277AA3A23247DAC009031B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1277AA3F23247DAC009031B9 /* BurritoRadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurritoRadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1277AA4323247DAC009031B9 /* BurritoRadarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurritoRadarUITests.swift; sourceTree = "<group>"; };
+		1277AA4523247DAC009031B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1277AA5123247F08009031B9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1277AA53232480A1009031B9 /* Burrito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burrito.swift; sourceTree = "<group>"; };
+		1277AA5723248414009031B9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1278C729232AF35C00CA8236 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		1497C51F27BF687D62048FCB /* Pods-BurritoRadarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurritoRadarTests.debug.xcconfig"; path = "Target Support Files/Pods-BurritoRadarTests/Pods-BurritoRadarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39C51BE6782BB4E12D1FCFD1 /* Pods_BurritoRadar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BurritoRadar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5360B4A1AF0FD775EFC20CA /* Pods-BurritoRadarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurritoRadarUITests.debug.xcconfig"; path = "Target Support Files/Pods-BurritoRadarUITests/Pods-BurritoRadarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9303A62E7828ECE717FE24 /* Pods-BurritoRadar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurritoRadar.debug.xcconfig"; path = "Target Support Files/Pods-BurritoRadar/Pods-BurritoRadar.debug.xcconfig"; sourceTree = "<group>"; };
+		DEA2D604FAB6D9EF4F0746B0 /* Pods-BurritoRadarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurritoRadarUITests.release.xcconfig"; path = "Target Support Files/Pods-BurritoRadarUITests/Pods-BurritoRadarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE41681EA63142D3C8C44BBD /* Pods_BurritoRadarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BurritoRadarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF07C89D6B8D437554E090EB /* Pods-BurritoRadarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurritoRadarTests.release.xcconfig"; path = "Target Support Files/Pods-BurritoRadarTests/Pods-BurritoRadarTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1277AA1D23247DAA009031B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319733F9AC4665B4D6F8240F /* Pods_BurritoRadar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1277AA3123247DAC009031B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F2A7CE256CBE8C54D79085 /* Pods_BurritoRadarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1277AA3C23247DAC009031B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37D283EB2E4F0989392D4F77 /* Pods_BurritoRadarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12334B098C10CEC70307E82D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB9303A62E7828ECE717FE24 /* Pods-BurritoRadar.debug.xcconfig */,
+				09348CDA79D85156025C1A77 /* Pods-BurritoRadar.release.xcconfig */,
+				1497C51F27BF687D62048FCB /* Pods-BurritoRadarTests.debug.xcconfig */,
+				FF07C89D6B8D437554E090EB /* Pods-BurritoRadarTests.release.xcconfig */,
+				B5360B4A1AF0FD775EFC20CA /* Pods-BurritoRadarUITests.debug.xcconfig */,
+				DEA2D604FAB6D9EF4F0746B0 /* Pods-BurritoRadarUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1277AA1723247DAA009031B9 = {
+			isa = PBXGroup;
+			children = (
+				1277AA2223247DAA009031B9 /* BurritoRadar */,
+				1277AA3723247DAC009031B9 /* BurritoRadarTests */,
+				1277AA4223247DAC009031B9 /* BurritoRadarUITests */,
+				1277AA2123247DAA009031B9 /* Products */,
+				12334B098C10CEC70307E82D /* Pods */,
+				3D852AA2B1C7E950FA20C00A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1277AA2123247DAA009031B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1277AA2023247DAA009031B9 /* BurritoRadar.app */,
+				1277AA3423247DAC009031B9 /* BurritoRadarTests.xctest */,
+				1277AA3F23247DAC009031B9 /* BurritoRadarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1277AA2223247DAA009031B9 /* BurritoRadar */ = {
+			isa = PBXGroup;
+			children = (
+				1277AA2323247DAA009031B9 /* AppDelegate.swift */,
+				1278C7282329987E00CA8236 /* Controllers */,
+				1278C7272329986700CA8236 /* Model */,
+				1277AA2723247DAA009031B9 /* Main.storyboard */,
+				1277AA2A23247DAC009031B9 /* Assets.xcassets */,
+				1277AA2C23247DAC009031B9 /* LaunchScreen.storyboard */,
+				1277AA2F23247DAC009031B9 /* Info.plist */,
+			);
+			path = BurritoRadar;
+			sourceTree = "<group>";
+		};
+		1277AA3723247DAC009031B9 /* BurritoRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				1277AA3823247DAC009031B9 /* BurritoRadarTests.swift */,
+				1277AA3A23247DAC009031B9 /* Info.plist */,
+			);
+			path = BurritoRadarTests;
+			sourceTree = "<group>";
+		};
+		1277AA4223247DAC009031B9 /* BurritoRadarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1277AA4323247DAC009031B9 /* BurritoRadarUITests.swift */,
+				1277AA4523247DAC009031B9 /* Info.plist */,
+			);
+			path = BurritoRadarUITests;
+			sourceTree = "<group>";
+		};
+		1278C7272329986700CA8236 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1277AA53232480A1009031B9 /* Burrito.swift */,
+				1278C729232AF35C00CA8236 /* Artwork.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1278C7282329987E00CA8236 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1277AA5123247F08009031B9 /* TableViewController.swift */,
+				1277AA5723248414009031B9 /* TableViewCell.swift */,
+				1277AA2523247DAA009031B9 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3D852AA2B1C7E950FA20C00A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39C51BE6782BB4E12D1FCFD1 /* Pods_BurritoRadar.framework */,
+				FE41681EA63142D3C8C44BBD /* Pods_BurritoRadarTests.framework */,
+				03BD309B8D760250D3DE0AE2 /* Pods_BurritoRadarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1277AA1F23247DAA009031B9 /* BurritoRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1277AA4823247DAC009031B9 /* Build configuration list for PBXNativeTarget "BurritoRadar" */;
+			buildPhases = (
+				C50EAF407AD3266CF488D9BE /* [CP] Check Pods Manifest.lock */,
+				1277AA1C23247DAA009031B9 /* Sources */,
+				1277AA1D23247DAA009031B9 /* Frameworks */,
+				1277AA1E23247DAA009031B9 /* Resources */,
+				7CE99EB96444338A1798E28C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurritoRadar;
+			productName = BurritoRadar;
+			productReference = 1277AA2023247DAA009031B9 /* BurritoRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1277AA3323247DAC009031B9 /* BurritoRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1277AA4B23247DAC009031B9 /* Build configuration list for PBXNativeTarget "BurritoRadarTests" */;
+			buildPhases = (
+				43F0F856936BEA1D3BC9D2D2 /* [CP] Check Pods Manifest.lock */,
+				1277AA3023247DAC009031B9 /* Sources */,
+				1277AA3123247DAC009031B9 /* Frameworks */,
+				1277AA3223247DAC009031B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1277AA3623247DAC009031B9 /* PBXTargetDependency */,
+			);
+			name = BurritoRadarTests;
+			productName = BurritoRadarTests;
+			productReference = 1277AA3423247DAC009031B9 /* BurritoRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1277AA3E23247DAC009031B9 /* BurritoRadarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1277AA4E23247DAC009031B9 /* Build configuration list for PBXNativeTarget "BurritoRadarUITests" */;
+			buildPhases = (
+				6B3B09855DF0E093A97C9EAD /* [CP] Check Pods Manifest.lock */,
+				1277AA3B23247DAC009031B9 /* Sources */,
+				1277AA3C23247DAC009031B9 /* Frameworks */,
+				1277AA3D23247DAC009031B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1277AA4123247DAC009031B9 /* PBXTargetDependency */,
+			);
+			name = BurritoRadarUITests;
+			productName = BurritoRadarUITests;
+			productReference = 1277AA3F23247DAC009031B9 /* BurritoRadarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1277AA1823247DAA009031B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Oliver Morland";
+				TargetAttributes = {
+					1277AA1F23247DAA009031B9 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					1277AA3323247DAC009031B9 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 1277AA1F23247DAA009031B9;
+					};
+					1277AA3E23247DAC009031B9 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 1277AA1F23247DAA009031B9;
+					};
+				};
+			};
+			buildConfigurationList = 1277AA1B23247DAA009031B9 /* Build configuration list for PBXProject "BurritoRadar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1277AA1723247DAA009031B9;
+			productRefGroup = 1277AA2123247DAA009031B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1277AA1F23247DAA009031B9 /* BurritoRadar */,
+				1277AA3323247DAC009031B9 /* BurritoRadarTests */,
+				1277AA3E23247DAC009031B9 /* BurritoRadarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1277AA1E23247DAA009031B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1277AA2E23247DAC009031B9 /* LaunchScreen.storyboard in Resources */,
+				1277AA2B23247DAC009031B9 /* Assets.xcassets in Resources */,
+				1277AA2923247DAA009031B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1277AA3223247DAC009031B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1277AA3D23247DAC009031B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43F0F856936BEA1D3BC9D2D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BurritoRadarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3B09855DF0E093A97C9EAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BurritoRadarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CE99EB96444338A1798E28C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BurritoRadar/Pods-BurritoRadar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BurritoRadar/Pods-BurritoRadar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BurritoRadar/Pods-BurritoRadar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C50EAF407AD3266CF488D9BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BurritoRadar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1277AA1C23247DAA009031B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1277AA2623247DAA009031B9 /* ViewController.swift in Sources */,
+				1277AA54232480A1009031B9 /* Burrito.swift in Sources */,
+				1277AA5823248414009031B9 /* TableViewCell.swift in Sources */,
+				1277AA5223247F08009031B9 /* TableViewController.swift in Sources */,
+				1278C72A232AF35C00CA8236 /* Artwork.swift in Sources */,
+				1277AA2423247DAA009031B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1277AA3023247DAC009031B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1277AA3923247DAC009031B9 /* BurritoRadarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1277AA3B23247DAC009031B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1277AA4423247DAC009031B9 /* BurritoRadarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1277AA3623247DAC009031B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1277AA1F23247DAA009031B9 /* BurritoRadar */;
+			targetProxy = 1277AA3523247DAC009031B9 /* PBXContainerItemProxy */;
+		};
+		1277AA4123247DAC009031B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1277AA1F23247DAA009031B9 /* BurritoRadar */;
+			targetProxy = 1277AA4023247DAC009031B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1277AA2723247DAA009031B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1277AA2823247DAA009031B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1277AA2C23247DAC009031B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1277AA2D23247DAC009031B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1277AA4623247DAC009031B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1277AA4723247DAC009031B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1277AA4923247DAC009031B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9303A62E7828ECE717FE24 /* Pods-BurritoRadar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZD8KEFM8T;
+				INFOPLIST_FILE = BurritoRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliIdeas.BurritoRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1277AA4A23247DAC009031B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09348CDA79D85156025C1A77 /* Pods-BurritoRadar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZD8KEFM8T;
+				INFOPLIST_FILE = BurritoRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliIdeas.BurritoRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1277AA4C23247DAC009031B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1497C51F27BF687D62048FCB /* Pods-BurritoRadarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZD8KEFM8T;
+				INFOPLIST_FILE = BurritoRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliIdeas.BurritoRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurritoRadar.app/BurritoRadar";
+			};
+			name = Debug;
+		};
+		1277AA4D23247DAC009031B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF07C89D6B8D437554E090EB /* Pods-BurritoRadarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZD8KEFM8T;
+				INFOPLIST_FILE = BurritoRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliIdeas.BurritoRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurritoRadar.app/BurritoRadar";
+			};
+			name = Release;
+		};
+		1277AA4F23247DAC009031B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5360B4A1AF0FD775EFC20CA /* Pods-BurritoRadarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZD8KEFM8T;
+				INFOPLIST_FILE = BurritoRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliIdeas.BurritoRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BurritoRadar;
+			};
+			name = Debug;
+		};
+		1277AA5023247DAC009031B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA2D604FAB6D9EF4F0746B0 /* Pods-BurritoRadarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZD8KEFM8T;
+				INFOPLIST_FILE = BurritoRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliIdeas.BurritoRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BurritoRadar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1277AA1B23247DAA009031B9 /* Build configuration list for PBXProject "BurritoRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1277AA4623247DAC009031B9 /* Debug */,
+				1277AA4723247DAC009031B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1277AA4823247DAC009031B9 /* Build configuration list for PBXNativeTarget "BurritoRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1277AA4923247DAC009031B9 /* Debug */,
+				1277AA4A23247DAC009031B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1277AA4B23247DAC009031B9 /* Build configuration list for PBXNativeTarget "BurritoRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1277AA4C23247DAC009031B9 /* Debug */,
+				1277AA4D23247DAC009031B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1277AA4E23247DAC009031B9 /* Build configuration list for PBXNativeTarget "BurritoRadarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1277AA4F23247DAC009031B9 /* Debug */,
+				1277AA5023247DAC009031B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1277AA1823247DAA009031B9 /* Project object */;
+}
